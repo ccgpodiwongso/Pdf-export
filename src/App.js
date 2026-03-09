@@ -40,13 +40,14 @@ const TABLES = [
     ],
   },
   {
-    name: "Dimensions",
+    name: "Dimensions & Measurements",
     rows: [
       ["Dimension", "Value"],
-      ["Max Tilt", "20°"],
-      ["Height", "80mm"],
-      ["Cutout Diameter", "Ø40mm"],
       ["Overall Diameter", "Ø100mm"],
+      ["Cutout Diameter", "Ø40mm"],
+      ["Height / Depth", "80mm"],
+      ["Cutout Depth", "50mm"],
+      ["Max Tilt", "20°"],
     ],
   },
   {
@@ -61,12 +62,12 @@ const TABLES = [
   {
     name: "Light Distribution — 3000K Spot 15°",
     rows: [
-      ["h (m)", "E (lx)", "ø (m)"],
-      ["1", "1972", "ø0.27"],
-      ["2", "492.9", "ø0.54"],
-      ["3", "219.1", "ø0.82"],
-      ["4", "123.2", "ø1.09"],
-      ["5", "78.87", "ø1.36"],
+      ["Distance h (m)", "Illuminance E (lx)", "Beam Diameter ø (m)"],
+      ["1", "1972", "0.27"],
+      ["2", "492.9", "0.54"],
+      ["3", "219.1", "0.82"],
+      ["4", "123.2", "1.09"],
+      ["5", "78.87", "1.36"],
     ],
   },
 ];
